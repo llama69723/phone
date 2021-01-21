@@ -481,12 +481,15 @@ li{
     box-shadow: none;
 }
 @media screen and (max-width: 960px){
+    body{
+        font-family: sans-serif ;
+    }
     .first-block{
         height: 1024px;
     }
     .top-block{
         /* border: #000 1px solid; */
-        width: 80%;
+        width: 90%;
         height: 80%;
         top: 50%;
     }
@@ -549,7 +552,7 @@ li{
         margin-top: 100px;
     }
     .answer-block{
-        width: 80%;
+        width: 90%;
     }
     .index-block h4{
         font-size: 30px;
@@ -571,8 +574,8 @@ li{
         width: 40px;
         height: 40px;
         border-radius: 10px;
-        right: 30px;
-        bottom: 35px;
+        right: 10px;
+        bottom: 10px;
     }
     .fixed-btn p{
         font-size: 10px;
@@ -588,17 +591,17 @@ li{
         width: 100%;
         margin-left: 0;
         text-align: center;
-        font-size: 40px;
+        font-size: 50px;
     }
     .money{
         width: 80px;
-        top: 18%;
-        left: 15%;
+        top: 22%;
+        left: 20%;
     }
     .phone{
         width: 250px;
-        top: 16%;
-        left: 18%;
+        top: 20%;
+        left: 24%;
         transform: rotate(-5deg);
     }
     .sub-title{
@@ -606,7 +609,8 @@ li{
         margin-top: 220px;
         margin-left: 0;
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
+        letter-spacing: 0.05em;
     }
     .warp1{
         width: 80%;
@@ -617,11 +621,11 @@ li{
     }
     .question-block{
         padding-top: 0;
-        width: 90%;
+        width: 95%;
         border: white 1px solid;
     }
     .question{
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 150px;
     }
     .question span{
@@ -636,7 +640,7 @@ li{
         width: 90%;
         margin: auto;
         display: block;
-        font-size: 8px;
+        font-size: 12px;
         padding: 5%;
     }
     .btn-box{
@@ -645,17 +649,17 @@ li{
         width: 80%;
     }
     .yes{
-        width: 100px;
-        font-size: 15px;
-        height: 30px;
-        line-height: 30px;
+        width: 120px;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
         box-shadow: 0 2px 0 #C60035;
     }
     .no{
-        width: 100px;
-        font-size: 15px;
-        height: 30px;
-        line-height: 30px;
+        width: 120px;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
         box-shadow: 0 2px 0 #047573;
     }
     .space1{
@@ -669,20 +673,20 @@ li{
         margin-top: 30px;
     }
     .index-block h3{
-        font-size: 12px;
+        font-size: 18px;
     }
     .index-block h4{
-        font-size: 18px;
+        font-size: 25px;
     }
     .hidden{
         display: inline;
     }
     .index-block h5{
         margin-top: 0;
-        font-size: 12px;
+        font-size: 18px;
     }
     .index-block span{
-        font-size: 18px;
+        font-size: 25px;
     }
     .contents-block{
         flex-direction: column;
@@ -693,26 +697,26 @@ li{
         margin-bottom: 30px;
     }
     .img-box p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .point-block{
         width: 90%;
     }
     .point-block h6{
-        font-size: 12px;
+        font-size: 15px;
     }
     li{
         line-height: 1.6em;
-        font-size: 10px;
+        font-size: 15px;
     }
     .link-box{
         margin-top: 40px;
     }
     .link{
         width: 80%;
-        font-size: 15px;
-        height: 30px;
-        line-height: 30px;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
         box-shadow: 0 2px 0 #C60035;
     }
 

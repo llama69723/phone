@@ -219,7 +219,7 @@ p{
     margin-top: 1%;
     margin-bottom: 4%;
     margin-left: 15%;
-    padding-left: 1.5%;
+    /* padding-left: 1%; */
     font-size: 18px;
     letter-spacing: 0.2em;
 }
@@ -350,6 +350,11 @@ p{
     display: inline;
     color: #08D9D6;
     border-bottom: #08D9D6 2px solid;
+    transition: .2s;
+}
+.question a:hover{
+    color: #06A6A3;
+    border-bottom: #06A6A3 2px solid;
 }
 .sub-question span{
     display: inline-block;

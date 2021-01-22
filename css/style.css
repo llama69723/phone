@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 
 /*
 html5doctor.com Reset Stylesheet
@@ -185,6 +185,7 @@ p{
     /* border: #000 5px solid; */
 }
 .top-block{
+    /* border: #000 1px solid; */
     width: 80%;
     height: 50%;
     top: 35%;
@@ -193,7 +194,8 @@ p{
 .title{
     width: 250px;
     font-size: 50px;
-    letter-spacing: 0.2em;
+    font-family: 'Kosugi Maru', sans-serif;
+    letter-spacing: 0.25em;
     font-weight: bold;
     color: #FF2E63;
     margin-top: 5%;
@@ -207,11 +209,11 @@ p{
     top: 2%;
 }
 .phone{
-    width: 54%;
+    width: 20%;
     height: auto;
     position: absolute;
-    left: 38%;
-    top: -6%;
+    left: 52%;
+    top: 11%;
 }
 .sub-title{
     width: 250px;
@@ -498,9 +500,10 @@ li{
         left: 50%;
     }
     .phone{
-        width: 62%;
-        top: 1.5%;
-        left: 45%;
+        width: 25%;
+        height: 24%;
+        top: 11%;
+        left: 60%;
         transform: rotate(-5deg);
     }
     .sub-title{
@@ -595,9 +598,10 @@ li{
         left: 20%;
     }
     .phone{
-        width: 250px;
-        top: 20%;
-        left: 24%;
+        width: 140px;
+        height: auto;
+        top: 26%;
+        left: 39%;
         transform: rotate(-5deg);
     }
     .sub-title{

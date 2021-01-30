@@ -496,6 +496,7 @@ li{
     }
     .title{
         margin-left: 10%;
+        letter-spacing: 0.2em;
     }
     .money{
         width: 16%;

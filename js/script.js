@@ -18,19 +18,25 @@ $(function(){
         $("html,body").animate({scrollTop:$(".a1").offset().top}, 1000);
     });
     $(".warp7").on('click', function(){
-        $("html,body").animate({scrollTop:$(".a2").offset().top}, 1000);
+        $("html,body").animate({scrollTop:$(".q6").offset().top}, 1000);
     });
     $(".warp8").on('click', function(){
         $("html,body").animate({scrollTop:$(".q5").offset().top}, 700);
     });
     $(".warp9").on('click', function(){
-        $("html,body").animate({scrollTop:$(".a2").offset().top}, 1000);
+        $("html,body").animate({scrollTop:$(".q6").offset().top}, 1000);
     });
     $(".warp10").on('click', function(){
         $("html,body").animate({scrollTop:$(".a3").offset().top}, 1000);
     });
     $(".warp11").on('click', function(){
         $("html,body").animate({scrollTop:$(".a4").offset().top}, 1000);
+    });
+    $(".warp12").on('click', function(){
+        $("html,body").animate({scrollTop:$(".a4").offset().top}, 1000);
+    });
+    $(".warp13").on('click', function(){
+        $("html,body").animate({scrollTop:$(".a2").offset().top}, 1000);
     });
     $("#top-btn").click(function (){
         $("html,body").animate({
